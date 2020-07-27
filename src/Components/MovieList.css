@@ -1,0 +1,27 @@
+.card-container {
+  display: flex;
+  border: 1px solid black;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  margin: 10px;
+}
+.card-img-top {
+  max-height: 300px !important;
+}
+.card-title,
+.card-year {
+  text-align: center !important;
+  font-family: fantasy;
+  font-size: 20px;
+  background-color: #2b4162;
+
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
+
+  border-radius: 5px;
+}
+.card-container:hover {
+  box-shadow: 0 20px 50px 0 white;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}

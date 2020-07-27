@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url("./Assets/cinema.jpg");
+  background-size: cover;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-search {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.stars {
+  width: 221px;
+  color: gold;
+  font-size: 52px;
+  margin-top: 49px;
+  margin-right: 240px;
+  cursor: pointer;
+  border: 1px solid;
+  background: black;
+  border-radius: 7px;
+  margin-bottom: 34px;
+  margin-top: 52px;
+  width: 220px;
 }
+.saf {
+  font-size: 20px;
+  color: gold;
+}
+.add-btn {
+  margin-top: 82px;
+  font-size: 30px;
+  color: darkred;
+  height: 84px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-left: 16px;
+}
+.description {
+  height: 86px;
+  border-radius: 5px;
+}
+.buttons {
+  justify-content: center !important;
+}
+.submit-btn,
+.cancel-btn {
+  width: 75px !important;
+  height: 38px;
+}
+.spiner {
+  width: 200px !important;
+  height: 100px !important;
+  margin: auto;
 }

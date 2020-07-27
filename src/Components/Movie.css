@@ -1,0 +1,33 @@
+.movies-container {
+  width: 1170px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.card-img-top {
+  max-height: 300px !important;
+}
+.image {
+  height: 300px !important;
+  width: 180px;
+
+  background-size: cover;
+  border-radius: 8px;
+}
+.movie-container {
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 8px;
+  transition: all 0.4s ease-in-out;
+}
+.movie-title,
+.movie-year {
+  margin: 10px;
+}
+.card-container :hover {
+  box-shadow: -1px 3px 10px 5px black;
+  cursor: pointer;
+  border: none;
+}
